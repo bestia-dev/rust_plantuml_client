@@ -20,13 +20,6 @@
 
 [![Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bestia-dev/rust_plantuml_client/blob/main/LICENSE) [![Rust](https://github.com/bestia-dev/rust_plantuml_client/workflows/RustAction/badge.svg)](https://github.com/bestia-dev/rust_plantuml_client/)
 
-## Edit this README.md file
-
-Edit this README file with your data. But leave the markers: auto_md_to_doc_comments, auto_lines_of_code, auto_cargo_toml_to_md and similar, because the automation tasks need them.  
-Modify the title and description only in Cargo.toml. Automation tasks will copy that into README.md.  
-Lines of code are filled automatically from automation tasks.  
-Find `bestia.dev` everywhere and change it with your username.
-
 ## Motivation
 
 It is very ofter needed to insert simple graphs inside the README markdown file of Rust projects.
