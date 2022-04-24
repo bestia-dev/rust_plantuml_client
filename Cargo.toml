@@ -1,0 +1,21 @@
+[package]
+name = "rust_plantuml_client"
+version = "1.0.14"
+description = "Rust client library and CLI for plantuml server"
+authors = ["bestia.dev <info@bestia.dev>"]
+edition = "2021"
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/bestia-dev/rust_plantuml_client"
+categories = ["rust-patterns"]
+keywords = ["Rust cli and library project template"]
+publish = false
+
+[dependencies]
+log = "0.4"
+pretty_env_logger="0.4.0"
+thiserror = "1.0.30"
+anyhow="1.0.56"
+deflate = "1.0.0"
+radix64 = "0.6.2"
+reqwest = { version = "0.11.10", features = ["blocking"] }
