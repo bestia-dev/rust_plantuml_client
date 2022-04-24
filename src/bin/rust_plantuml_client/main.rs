@@ -48,5 +48,6 @@ fn render_svg(file_path: &str) {
     }
     let plant_uml_code = std::fs::read_to_string(file_path).unwrap();
     let plant_uml = rust_plantuml_client::get_svg(&plant_uml_code);
-    println!("{}", plant_uml);
+    let new_file_path = file_path.with_extension("html");
+    std::fs::write(new_file_path, plant_uml).unwrap();
 }
