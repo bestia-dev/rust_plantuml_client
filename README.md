@@ -32,6 +32,14 @@ But first I need a simple Rust library or CLI app to call the <plantuml.com> ser
 This web service API is pretty non-standard because the plantuml code needs to be compressed and base64 in an unusual way.
 This `Rust plantuml client` will solve this. It can be used as a Rust library or as a standalone CLI app.
 
+## Try it
+
+Watch the youtube video tutorial:
+
+<!-- markdownlint-disable MD033 -->
+[<img src="https://github.com/bestia-dev/win10_wsl2rust_plantuml_client_debian11/raw/main/images/thumbnail.png" width="400px">](https://bestia.dev/youtube/rust_plantuml_client.html)
+<!-- markdownlint-enable MD033 -->
+
 ## cargo crev reviews and advisory
 
 We live in times of danger with [supply chain attacks](https://en.wikipedia.org/wiki/Supply_chain_attack).
