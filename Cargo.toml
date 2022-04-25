@@ -3,6 +3,7 @@ name = "rust_plantuml_client"
 version = "1.0.14"
 description = "Rust client library and CLI for plantuml server"
 authors = ["bestia.dev"]
+homepage = "https://bestia.dev"
 edition = "2021"
 license = "MIT"
 readme = "README.md"
