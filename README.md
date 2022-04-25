@@ -10,6 +10,7 @@
 [comment]: # (auto_cargo_toml_to_md end)
 
 [comment]: # (auto_lines_of_code start)
+
 [![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-81-green.svg)]()
 [![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-65-blue.svg)]()
 [![Lines in Comments](https://img.shields.io/badge/Lines_in_comments-34-purple.svg)]()
