@@ -37,7 +37,7 @@ This `Rust plantuml client` will solve this. It can be used as a Rust library or
 Watch the youtube video tutorial:
 
 <!-- markdownlint-disable MD033 -->
-[<img src="https://github.com/bestia-dev/win10_wsl2rust_plantuml_client_debian11/raw/main/images/thumbnail.png" width="400px">](https://bestia.dev/youtube/rust_plantuml_client.html)
+[<img src="https://github.com/bestia-dev/rust_plantuml_client/raw/main/images/thumbnail.png" width="400px">](https://bestia.dev/youtube/rust_plantuml_client.html)
 <!-- markdownlint-enable MD033 -->
 
 ## cargo crev reviews and advisory
