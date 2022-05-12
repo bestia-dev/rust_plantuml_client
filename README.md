@@ -5,17 +5,16 @@
 [comment]: # (auto_cargo_toml_to_md start)
 
 **Rust client library and CLI for plantuml server**  
-***version: 1.0.14 date: 2022-04-24 author: [bestia.dev](bestia.dev) repository: [Github](https://github.com/bestia-dev/rust_plantuml_client)***  
+***version: 1.0.16 date: 2022-05-12 author: [bestia.dev](https://bestia.dev) repository: [Github](https://github.com/bestia-dev/rust_plantuml_client)***  
 
 [comment]: # (auto_cargo_toml_to_md end)
 
 [comment]: # (auto_lines_of_code start)
-
-[![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-81-green.svg)]()
-[![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-65-blue.svg)]()
-[![Lines in Comments](https://img.shields.io/badge/Lines_in_comments-34-purple.svg)]()
-[![Lines in examples](https://img.shields.io/badge/Lines_in_examples-13-yellow.svg)]()
-[![Lines in tests](https://img.shields.io/badge/Lines_in_tests-30-orange.svg)]()
+[![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-82-green.svg)](https://github.com/bestia-dev/rust_plantuml_client/)
+[![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-65-blue.svg)](https://github.com/bestia-dev/rust_plantuml_client/)
+[![Lines in Comments](https://img.shields.io/badge/Lines_in_comments-34-purple.svg)](https://github.com/bestia-dev/rust_plantuml_client/)
+[![Lines in examples](https://img.shields.io/badge/Lines_in_examples-13-yellow.svg)](https://github.com/bestia-dev/rust_plantuml_client/)
+[![Lines in tests](https://img.shields.io/badge/Lines_in_tests-30-orange.svg)](https://github.com/bestia-dev/rust_plantuml_client/)
 
 [comment]: # (auto_lines_of_code end)
 

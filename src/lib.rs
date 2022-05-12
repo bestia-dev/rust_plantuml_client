@@ -6,22 +6,19 @@
 //! # rust_plantuml_client
 //!
 //! **Rust client library and CLI for plantuml server**  
-//! ***version: 1.0.14 date: 2022-04-24 author: [bestia.dev](bestia.dev) repository: [Github](https://github.com/bestia-dev/rust_plantuml_client)***  
+//! ***version: 1.0.16 date: 2022-05-12 author: [bestia.dev](https://bestia.dev) repository: [Github](https://github.com/bestia-dev/rust_plantuml_client)***  
 //!
-//! [![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-81-green.svg)]()
-//! [![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-65-blue.svg)]()
-//! [![Lines in Comments](https://img.shields.io/badge/Lines_in_comments-34-purple.svg)]()
-//! [![Lines in examples](https://img.shields.io/badge/Lines_in_examples-13-yellow.svg)]()
-//! [![Lines in tests](https://img.shields.io/badge/Lines_in_tests-30-orange.svg)]()
+//! [![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-82-green.svg)](https://github.com/bestia-dev/rust_plantuml_client/)
+//! [![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-65-blue.svg)](https://github.com/bestia-dev/rust_plantuml_client/)
+//! [![Lines in Comments](https://img.shields.io/badge/Lines_in_comments-34-purple.svg)](https://github.com/bestia-dev/rust_plantuml_client/)
+//! [![Lines in examples](https://img.shields.io/badge/Lines_in_examples-13-yellow.svg)](https://github.com/bestia-dev/rust_plantuml_client/)
+//! [![Lines in tests](https://img.shields.io/badge/Lines_in_tests-30-orange.svg)](https://github.com/bestia-dev/rust_plantuml_client/)
 //!
-//! [![Licence](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bestia-dev/rust_plantuml_client/blob/main/LICENSE) [![Rust](https://github.com/bestia-dev/rust_plantuml_client/workflows/RustAction/badge.svg)](https://github.com/bestia-dev/rust_plantuml_client/)
+//! [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bestia-dev/rust_plantuml_client/blob/main/LICENSE)
+//! [![Rust](https://github.com/bestia-dev/rust_plantuml_client/workflows/RustAction/badge.svg)](https://github.com/bestia-dev/rust_plantuml_client/)
+//! [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fbestia-dev%2Frust_plantuml_client&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 //!
-//! ## Edit this README.md file
-//!
-//! Edit this README file with your data. But leave the markers: auto_md_to_doc_comments, auto_lines_of_code, auto_cargo_toml_to_md and similar, because the automation tasks need them.  
-//! Modify the title and description only in Cargo.toml. Automation tasks will copy that into README.md.  
-//! Lines of code are filled automatically from automation tasks.  
-//! Find `bestia.dev` everywhere and change it with your username.
+//! Hashtags: #rustlang #tutorial #plantuml #client
 //!
 //! ## Motivation
 //!
@@ -34,6 +31,14 @@
 //! But first I need a simple Rust library or CLI app to call the <plantuml.com> server and save the image.
 //! This web service API is pretty non-standard because the plantuml code needs to be compressed and base64 in an unusual way.
 //! This `Rust plantuml client` will solve this. It can be used as a Rust library or as a standalone CLI app.
+//!
+//! ## Try it
+//!
+//! Watch the youtube video tutorial:
+//!
+//! <!-- markdownlint-disable MD033 -->
+//! [<img src="https://github.com/bestia-dev/rust_plantuml_client/raw/main/images/thumbnail.png" width="400px">](https://bestia.dev/youtube/rust_plantuml_client.html)
+//! <!-- markdownlint-enable MD033 -->
 //!
 //! ## cargo crev reviews and advisory
 //!
