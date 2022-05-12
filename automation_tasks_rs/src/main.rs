@@ -163,12 +163,14 @@ fn task_commit_and_push(arg_2: Option<String>) {
         Some(message) => {
             run_shell_command(&format!(r#"git add -A && git commit --allow-empty -m "{}""#, message));
             run_shell_command("git push");
+            /*
             println!(
                 r#"
 After `cargo auto commit_and_push "message"`
 run `cargo auto publish_to_crates_io`
 "#
             );
+             */
         }
     }
 }
