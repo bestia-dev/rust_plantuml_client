@@ -1,11 +1,15 @@
 {
     "cSpell.words": [
+        "Alla",
         "bestia",
         "crev",
         "debuginfo",
         "endregion",
         "enduml",
+        "Heureka",
+        "Nazdravlje",
         "plantuml",
+        "Prost",
         "reqwest",
         "rustdevuser",
         "rustlang",
@@ -13,6 +17,7 @@
         "startuml",
         "struct",
         "thiserror",
-        "unoptimized"
+        "unoptimized",
+        "zdravje"
     ]
 }
