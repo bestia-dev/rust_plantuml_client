@@ -4,7 +4,7 @@
 
 [comment]: # (auto_cargo_toml_to_md start)
 
-**Rust client library and CLI for plantuml server**  
+**03. Tutorial for coding a simple CLI application in Rust (rust_plantuml_client) (2022-04)**  
 ***version: 1.0.16 date: 2022-05-12 author: [bestia.dev](https://bestia.dev) repository: [Github](https://github.com/bestia-dev/rust_plantuml_client)***  
 
 [comment]: # (auto_cargo_toml_to_md end)
