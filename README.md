@@ -1,6 +1,6 @@
 [comment]: # (auto_md_to_doc_comments segment start A)
 
-# 03. Tutorial for coding a simple CLI application in Rust (rust_plantuml_client) (2022-04)
+# rust_plantuml_client
 
 [comment]: # (auto_cargo_toml_to_md start)
 
