@@ -20,7 +20,7 @@
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bestia-dev/rust_plantuml_client/blob/main/LICENSE)
 [![Rust](https://github.com/bestia-dev/rust_plantuml_client/workflows/RustAction/badge.svg)](https://github.com/bestia-dev/rust_plantuml_client/)
-![Hits](https://bestia.dev/webpage_hit_counter/get_svg_image/722419866)
+![Hits](https://bestia.dev/webpage_hit_counter/get_svg_image/722419866.svg)
 
 Hashtags: #rustlang #tutorial #plantuml #client  
 My projects on Github are more like a tutorial than a finished product: [bestia-dev tutorials](https://github.com/bestia-dev/tutorials_rust_wasm).
