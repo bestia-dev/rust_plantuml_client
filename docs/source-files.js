@@ -1,3 +1,4 @@
-var N = null;var sourcesIndex = {};
-sourcesIndex["rust_plantuml_client"] = {"name":"","files":["lib.rs","plantuml_mod.rs"]};
+var sourcesIndex = JSON.parse('{\
+"rust_plantuml_client":["",[],["lib.rs","plantuml_mod.rs"]]\
+}');
 createSourceSidebar();

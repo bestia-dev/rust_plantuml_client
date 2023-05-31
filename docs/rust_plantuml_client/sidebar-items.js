@@ -1,1 +1,1 @@
-initSidebarItems({"enum":[["LibraryError","all possible library errors for `thiserror`"]],"fn":[["compress_plant_uml_code","deflate and strange base64, that is Url_safe"],["get_svg",""]],"mod":[["plantuml_mod","All the real code is inside modules in separate files."]]});
+window.SIDEBAR_ITEMS = {"enum":["LibraryError"],"fn":["compress_plant_uml_code","get_svg"],"mod":["plantuml_mod"]};

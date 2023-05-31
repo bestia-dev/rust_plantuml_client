@@ -1,6 +1,6 @@
 [package]
 name = "rust_plantuml_client"
-version = "1.0.16"
+version = "1.0.18"
 description = "Rust client library and CLI for plantuml server"
 authors = ["bestia.dev"]
 homepage = "https://bestia.dev"

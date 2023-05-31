@@ -1,3 +1,0 @@
-(function() {var implementors = {};
-implementors["rust_plantuml_client"] = [{"text":"impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.60.0/std/error/trait.Error.html\" title=\"trait std::error::Error\">Error</a> for <a class=\"enum\" href=\"rust_plantuml_client/enum.LibraryError.html\" title=\"enum rust_plantuml_client::LibraryError\">LibraryError</a>","synthetic":false,"types":["rust_plantuml_client::LibraryError"]}];
-if (window.register_implementors) {window.register_implementors(implementors);} else {window.pending_implementors = implementors;}})()
