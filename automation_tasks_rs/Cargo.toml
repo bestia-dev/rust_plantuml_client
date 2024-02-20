@@ -9,6 +9,6 @@ description = "cargo auto - automation tasks written in Rust language"
 publish = false
 
 [dependencies]
-cargo_auto_lib = "0.8.60"
-tokio = {version = "1.28.2", features = ["rt","rt-multi-thread","fs"]}
-cargo_auto_github_lib = "0.1.24"
+cargo_auto_lib = "1.2.13"
+
+
