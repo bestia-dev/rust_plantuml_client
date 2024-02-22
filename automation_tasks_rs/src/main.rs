@@ -68,13 +68,13 @@ fn print_help() {
     {YELLOW}This program automates your custom tasks when developing a Rust project.{RESET}
 
     {YELLOW}User defined tasks in automation_tasks_rs:{RESET}
-{GREEN}cargo auto build{RESET}{YELLOW} - builds the crate in debug mode, fmt, increment version{RESET}
-{GREEN}cargo auto release{RESET}{YELLOW} - builds the crate in release mode, fmt, increment version{RESET}
-{GREEN}cargo auto doc{RESET}{YELLOW} - builds the docs, copy to docs directory{RESET}
-{GREEN}cargo auto test{RESET}{YELLOW} - runs all the tests{RESET}
-{GREEN}cargo auto commit_and_push "message"{RESET}{YELLOW} - commits with message and push with mandatory message
+{GREEN}cargo auto build{RESET} - {YELLOW}builds the crate in debug mode, fmt, increment version{RESET}
+{GREEN}cargo auto release{RESET} - {YELLOW}builds the crate in release mode, fmt, increment version{RESET}
+{GREEN}cargo auto doc{RESET} - {YELLOW}builds the docs, copy to docs directory{RESET}
+{GREEN}cargo auto test{RESET} - {YELLOW}runs all the tests{RESET}
+{GREEN}cargo auto commit_and_push "message"{RESET} - {YELLOW}commits with message and push with mandatory message
     (If you use SSH, it is easy to start the ssh-agent in the background and ssh-add your credentials for git.){RESET}
-{GREEN}cargo auto github_new_release{RESET}{YELLOW} - creates new release on github
+{GREEN}cargo auto github_new_release{RESET} - {YELLOW}creates new release on github
     This task needs PAT (personal access token from github) in the env variable:{RESET}
 {GREEN} export GITHUB_TOKEN=paste_token_here{RESET}
 
@@ -87,8 +87,8 @@ fn print_help() {
 /// all example commands in one place
 fn print_examples_cmd(){
 /*
-    println!(r#"{YELLOW}run examples:{RESET}{GREEN}
-cargo run --example example1{RESET}
+    println!(r#"{YELLOW}run examples:{RESET}
+{GREEN}cargo run --example example1{RESET}
 "#);
 */
 }
@@ -127,9 +127,9 @@ fn task_build() {
         r#"
     {YELLOW}After `cargo auto build`, run the compiled binary, examples and/or tests{RESET}
 {GREEN}./target/debug/{package_name} svg sample_data/text_1.plantuml{RESET}
-    {YELLOW}if ok, then,{RESET}
+    {YELLOW}if ok then{RESET}
 {GREEN}cargo auto release{RESET}
-    {YELLOW}{RESET}"#,
+    "#,
 package_name = cargo_toml.package_name(),
     );
     print_examples_cmd();
@@ -152,9 +152,9 @@ fn task_release() {
         r#"
     {YELLOW}After `cargo auto release`, run the compiled binary, examples and/or tests{RESET}
 {GREEN}./target/release/{package_name} svg sample_data/text_1.plantuml{RESET}
-    {YELLOW}if ok, then,{RESET}
+    {YELLOW}if ok then{RESET}
 {GREEN}cargo auto doc{RESET}
-    {YELLOW}{RESET}"#,
+    "#,
 package_name = cargo_toml.package_name(),
     );
     print_examples_cmd();
@@ -180,9 +180,9 @@ fn task_doc() {
     // message to help user with next move
     println!(
         r#"
-    {YELLOW}After `cargo auto doc`, check `docs/index.html`. If ok, then test the documentation code examples{RESET}
+    {YELLOW}After `cargo auto doc`, check `docs/index.html`. If ok then test the documentation code examples{RESET}
 {GREEN}cargo auto test{RESET}
-    {YELLOW}{RESET}"#
+    "#
     );
 }
 
@@ -191,7 +191,7 @@ fn task_test() {
     run_shell_command("cargo test");
     println!(
         r#"
-    {YELLOW}After `cargo auto test`. If ok, then {RESET}
+    {YELLOW}After `cargo auto test`. If ok then {RESET}
 {GREEN}cargo auto commit_and_push "message"{RESET}
     {YELLOW}with mandatory commit message{RESET}
 {GREEN}{RESET}"#
@@ -209,7 +209,7 @@ fn task_commit_and_push(arg_2: Option<String>) {
                 r#"
     {YELLOW}After `cargo auto commit_and_push "message"`{RESET}
 {GREEN}cargo auto github_new_release{RESET}
-    {YELLOW}{RESET}"#
+    "#
             );
         }
     }
