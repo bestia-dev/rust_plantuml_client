@@ -99,13 +99,13 @@ fn completion() {
     if last_word == "cargo-auto" || last_word == "auto" {
         let sub_commands = vec!["build", "release", "doc", "test", "commit_and_push", "github_new_release"];
         // , "publish_to_crates_io"
-        completion_return_one_or_more_sub_commands(sub_commands, word_being_completed);
+       cl::completion_return_one_or_more_sub_commands(sub_commands, word_being_completed);
     }
     /*
     // the second level if needed
     else if last_word == "new" {
         let sub_commands = vec!["x"];
-        completion_return_one_or_more_sub_commands(sub_commands, word_being_completed);
+       cl::completion_return_one_or_more_sub_commands(sub_commands, word_being_completed);
     }
     */
 }
