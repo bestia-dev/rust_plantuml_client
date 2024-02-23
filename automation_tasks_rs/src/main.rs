@@ -116,7 +116,7 @@ fn completion() {
 
 /// cargo build
 fn task_build() {
-    let cargo_toml = CargoToml::read();
+    let cargo_toml = cl::CargoToml::read();
     cl::auto_version_increment_semver_or_date();
     cl::run_shell_command("cargo fmt");
     cl::run_shell_command("cargo build");
@@ -134,7 +134,7 @@ package_name = cargo_toml.package_name(),
 
 /// cargo build --release
 fn task_release() {
-    let cargo_toml = CargoToml::read();
+    let cargo_toml = cl::CargoToml::read();
     cl::auto_version_increment_semver_or_date();
     cl::auto_cargo_toml_to_md();
     cl::auto_lines_of_code("");
@@ -226,7 +226,7 @@ r#"
 
 /// create a new release on github
 fn task_github_new_release() {
-    let cargo_toml = CargoToml::read();
+    let cargo_toml = cl::CargoToml::read();
     println!("    {YELLOW}The env variable GITHUB_TOKEN must be set:  export GITHUB_TOKEN=paste_token_here{RESET}");
 
     // git tag
