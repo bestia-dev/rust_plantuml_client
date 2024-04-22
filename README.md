@@ -22,7 +22,7 @@
 [//]: # (auto_lines_of_code end)
 
  [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/bestia-dev/rust_plantuml_client/blob/main/LICENSE)
- [![Rust](https://github.com/bestia-dev/rust_plantuml_client/workflows/RustAction/badge.svg)](https://github.com/bestia-dev/rust_plantuml_client/)
+ [![Rust](https://github.com/bestia-dev/rust_plantuml_client/workflows/rust_fmt_auto_build_test/badge.svg)](https://github.com/bestia-dev/rust_plantuml_client/)
  ![rust_plantuml_client](https://bestia.dev/webpage_hit_counter/get_svg_image/722419866.svg)
 
 Hashtags: #rustlang #tutorial #plantuml #client  
