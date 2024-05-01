@@ -241,7 +241,7 @@ fn task_github_new_release() {
     use tokio::runtime::Runtime;
     let rt = Runtime::new().unwrap();
     rt.block_on(async move {
-        let owner = cargo_auto_github_lib::github_owner();
+        let github_owner = cargo_auto_github_lib::github_owner();
         let repo_name = cargo_toml.package_name();
         let tag_name_version = format!("v{}", cargo_toml.package_version());
         let release_name = format!("Release v{}", cargo_toml.package_version());
@@ -254,7 +254,7 @@ r#"## Changed
           
 "#);
 
-        let release_id =  auto_github_create_new_release(&owner, &repo_name, &tag_name_version, &release_name, branch, body_md_text).await;
+        let release_id =  auto_github_create_new_release(&github_owner, &repo_name, &tag_name_version, &release_name, branch, body_md_text).await;
         println!("    {YELLOW}New release created, now uploading release asset. This can take some time if the files are big. Wait...{RESET}");
 
         // compress files tar.gz
@@ -262,11 +262,11 @@ r#"## Changed
         cl::run_shell_command(&format!("tar -zcvf {tar_name} target/release/{repo_name}"));
         
         // upload asset     
-        auto_github_upload_asset_to_release(&owner, &repo_name, &release_id, &tar_name).await;
+        auto_github_upload_asset_to_release(&github_owner, &repo_name, &release_id, &tar_name).await;
         cl::run_shell_command(&format!("rm {tar_name}"));  
 
         println!("    {YELLOW}Asset uploaded. Open and edit the description on Github-Releases in the browser.{RESET}");
-        println!("{GREEN}https://github.com/{owner}/{repo_name}/releases{RESET}");
+        println!("{GREEN}https://github.com/{github_owner}/{repo_name}/releases{RESET}");
     });
 }
 // endregion: tasks
