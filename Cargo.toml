@@ -1,7 +1,7 @@
 [package]
 name = "rust_plantuml_client"
 version = "1.0.18"
-description = "Rust client library and CLI for plantuml server"
+description = "03. Tutorial for coding a simple CLI application in Rust (rust_plantuml_client) (2022-04)"
 authors = ["bestia.dev"]
 homepage = "https://bestia.dev"
 edition = "2021"
