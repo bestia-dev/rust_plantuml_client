@@ -12,7 +12,8 @@
 
  ![maintained](https://img.shields.io/badge/maintained-green)
  ![ready_for_use](https://img.shields.io/badge/ready_for_use-green)
-
+ ![youtube](https://img.shields.io/badge/youtube-orange)
+ 
 [//]: # (auto_lines_of_code start)
 [![Lines in Rust code](https://img.shields.io/badge/Lines_in_Rust-82-green.svg)](https://github.com/bestia-dev/rust_plantuml_client/)
 [![Lines in Doc comments](https://img.shields.io/badge/Lines_in_Doc_comments-70-blue.svg)](https://github.com/bestia-dev/rust_plantuml_client/)
